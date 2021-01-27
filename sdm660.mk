@@ -13,7 +13,8 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    vendor/qcom/opensource/data-ipa-cfg-mgr
 
 # Permissions
 PRODUCT_COPY_FILES += \
