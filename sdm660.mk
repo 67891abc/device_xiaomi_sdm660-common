@@ -18,6 +18,7 @@ PRODUCT_VENDOR_KERNEL_HEADERS := device/xiaomi/lavender-kernel/sdm660/kernel-hea
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     vendor/qcom/opensource/data-ipa-cfg-mgr \
+    vendor/qcom/opensource/dataservices \
     hardware/qcom-caf/msm8998/audio \
     hardware/qcom-caf/msm8998/display \
     hardware/qcom-caf/msm8998/media \
