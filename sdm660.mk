@@ -44,7 +44,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     vendor/qcom/opensource/data-ipa-cfg-mgr \
-    packages/apps/Bluetooth \
     vendor/qcom/opensource/dataservices
 
 # Permissions
