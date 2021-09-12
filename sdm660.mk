@@ -23,7 +23,6 @@
 
 # Inherit properties
 $(call inherit-product, $(LOCAL_PATH)/properties.mk)
-PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Enable updatable APEX
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
